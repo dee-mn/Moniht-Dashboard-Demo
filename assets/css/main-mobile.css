@@ -34,7 +34,11 @@
 @media (max-width: 767.98px) {
 	.moniht .app-sidebar{
 		background: #00000040;
-    	backdrop-filter: blur(76px);	
+    	backdrop-filter: blur(76px);
+    	-webkit-backdrop-filter: blur(76px);
+    	-o-backdrop-filter: blur(76px);
+    	-moz-backdrop-filter: blur(76px);
+    	-ms-backdrop-filter: blur(76px);
 	}
 
 	.moniht .app-header .brand {
