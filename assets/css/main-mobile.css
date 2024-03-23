@@ -1,0 +1,85 @@
+@media (max-width: 574px) {
+	.moniht .login {
+		flex-direction: column;
+	}
+
+	.moniht .login-logo {
+		text-align: center;
+		margin-top: 3rem;
+	}
+
+	.moniht .login-logo img {
+		margin: 2rem 0;
+	}
+
+	.moniht .login .login-content {
+		margin: 0 auto;
+		border: none;
+	}
+
+	.moniht .blur-bg {
+		background: transparent;
+		backdrop-filter: blur(0px);
+	}
+
+	.moniht:has(.login)[data-bs-theme=dark] {
+		--bs-body-bg-gradient: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 80%);
+	}
+
+	.moniht .app-sidebar {
+		top: 4rem;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.moniht .app-sidebar{
+		background: #00000040;
+    	backdrop-filter: blur(76px);	
+	}
+
+	.moniht .app-header .brand {
+		display: flex;
+		padding-left: 10px;
+	}
+
+	.moniht .app-header .brand .brand-logo {
+		display: block;
+	}
+
+	.moniht .app-header .brand .brand-logo img {
+		height: 1rem;
+	}
+
+	.d-block-mobile {
+		display: block!important;
+	}
+
+	.btn.d-block-mobile {
+		margin-bottom: 0.5rem;
+	}
+
+	.moniht .card {
+		min-height: 171.5px; 
+	}
+
+	.moniht .card .card{
+		min-height: unset; 
+	}
+
+	.card .small.text-opacity-50:not(span) {
+		position: absolute;
+		bottom: 0.8rem;
+	}
+
+}
+
+@media (max-width: 950px) {
+	.moniht .owl-carousel .owl-item img,
+	.owl-nav button {
+		height: auto;
+	}
+	
+	.moniht .owl-1 .owl-nav {
+		top: calc(100% - 75px);
+	}	
+}
